@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin : 0px;
+    padding: 0px;
+    font: poppins;
+}
+
+#main{
+    width:100%;
+    height:50vh;
+    position: relative;
+ }
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.02);
+  z-index:1;
+}
+.logo img{
+    height : 45px;
+}
+.menu{
+    list-style: none;
+    display : flex;
+}
+a{
+    text-decoration: none;
+}
+.account{
+    display: flex;
+    align-items: center;
+}
+
+.accountlogo img{
+    height : 40px;
+    widht : 40px;
+}
+.accountname {
+    font-weight:500;
+    letter-space: 1px;
+    color: black;
+}
+.menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    dispaly: flex;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight:500;
+    letter-space: 1px;
+    color: black;
+}
+.hi{
+    color:blue;
+    font-weight: 500;
+    font-size: 0.9em;
+    border-bottom: 2px solid blue;
+}
+.contentimage{
+    width: 500px;
+    height: 500px;
+}
+.contentimage img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.content{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+.contenttext{
+    width: 400px;
+}
+
+.contenttext h1{
+    font-size: 3.5em;
+    color: black;
+    margin: 0px 0px 10px 0px;
+    line-height: 60px;
+}
+.contenttext p{
+    color: grey;
+}
+.start {
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: darkblue;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+}
+.start:hover{
+    background-color: blue;
+    transition: all ease 0.2s;
+}
+.menu li a:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+    transition: all ease 0.2s;
+    border-radius: 20px;
+}
+.accountname:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+    transition: all ease 0.2s;
+    border-radius: 20px;
+}
